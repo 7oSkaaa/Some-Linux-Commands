@@ -2,6 +2,37 @@
 Important commands for me
 
 
+## Install Flat Remix Gnome
+```
+sudo add-apt-repository ppa:daniruiz/flat-remix
+```
+```
+sudo apt update
+```
+```
+sudo apt install flat-remix-gnome
+```
+## Install Flat Remix Icon Theme
+```
+sudo add-apt-repository ppa:daniruiz/flat-remix
+```
+```
+sudo apt update
+```
+```
+sudo apt install flat-remix
+```
+## Install Flat Remix GTK Theme
+```
+sudo add-apt-repository ppa:daniruiz/flat-remix
+```
+```
+sudo apt update
+```
+```
+sudo apt install flat-remix-gtk
+
+```
 ## Convert extension of files
 install `unoconv`
 ```
@@ -36,35 +67,5 @@ Example:
 sudo ntfsfix /dev/sda1
 ```
 
-## Install Flat Remix Gnome
-```
-sudo add-apt-repository ppa:daniruiz/flat-remix
-```
-```
-sudo apt update
-```
-```
-sudo apt install flat-remix-gnome
-```
-## Install Flat Remix Icon Theme
-```
-sudo add-apt-repository ppa:daniruiz/flat-remix
-```
-```
-sudo apt update
-```
-```
-sudo apt install flat-remix
-```
-## Install Flat Remix GTK Theme
-```
-sudo add-apt-repository ppa:daniruiz/flat-remix
-```
-```
-sudo apt update
-```
-```
-sudo apt install flat-remix-gtk
 
-```
 
