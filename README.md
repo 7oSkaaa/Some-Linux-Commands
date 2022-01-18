@@ -46,6 +46,14 @@ Example:
 ```
 unoconv -f pdf 'Chapter 1.docx'
 ```
+If you want to convert number of files together you can put them in folder together and use this command after open your folder in terminal
+```
+unoconv -f <format> *.file_extension
+```
+Example:
+```
+unoconv -f pdf *.pptx
+```
 ## Fix Black Screen in screen sharing
 Open your terminal
 ```
