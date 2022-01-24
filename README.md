@@ -77,7 +77,7 @@ Example:
 unoconv -f pdf *.pptx
 ```
 
-**Convert files to pdf
+**Convert files to pdf**
 
 ```
 soffice --headless --convert-to pdf 'file_name.extension'
