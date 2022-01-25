@@ -149,3 +149,25 @@ Example:
 ```
 sudo ntfsfix /dev/sda1
 ```
+
+## Shutdown Computer at Specific Time
+
+**Sometimes you will need to shutdown your computer some hours after your work hours have ended. You can configure your computer to shut down at specific time by using:**
+
+```
+sudo shutdown 21:00
+```
+
+**This will tell your computer to shut down at the specific time you have provided. You can also tell the system to shutdown after specific amount of minutes:**
+
+```
+sudo shutdown +15
+```
+
+## Using yes command for commands or scripts that need interactive response
+
+**If there are some commands or scripts that need user interaction and you know that you have to enter Y each time it requires an input, you can use Yes command.**
+
+```
+yes | command_or_script
+```
