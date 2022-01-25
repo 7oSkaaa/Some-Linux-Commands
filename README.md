@@ -1,5 +1,5 @@
 # Linux-Commands
-Important commands for me
+Important commands for solving some problems
 
 
 ## Install Flat Remix Gnome
