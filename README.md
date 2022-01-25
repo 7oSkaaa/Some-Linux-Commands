@@ -171,3 +171,19 @@ sudo shutdown +15
 ```
 yes | command_or_script
 ```
+
+## Make file executable
+
+The chmod command lets you change the mode of a file (permissions) quickly. It has a lot of options available with it.
+
+The basic permissions a file can have are:
+
+r (read)
+w (write)
+x (execute)
+One of the most common use cases for chmod is to make a file executable by the user. To do this, type chmod and the flag +x, followed by the file you want to modify permissions on:
+
+```
+chmod +x 'file name'
+```
+
