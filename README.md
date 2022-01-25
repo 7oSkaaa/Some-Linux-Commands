@@ -164,6 +164,12 @@ sudo shutdown 21:00
 sudo shutdown +15
 ```
 
+**To cancel a previous shutdown call, you can use the -c flag:**
+
+```
+shutdown -c
+```
+
 ## Using yes command for commands or scripts that need interactive response
 
 **If there are some commands or scripts that need user interaction and you know that you have to enter Y each time it requires an input, you can use Yes command.**
@@ -187,3 +193,12 @@ One of the most common use cases for chmod is to make a file executable by the u
 chmod +x 'file name'
 ```
 
+## Displays information about your system
+
+```
+sudo apt install neofetch
+```
+
+```
+neofetch
+```
