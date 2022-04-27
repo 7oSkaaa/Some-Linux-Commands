@@ -202,3 +202,9 @@ sudo apt install neofetch
 ```
 neofetch
 ```
+
+## Make snap programs appears in programs list
+
+```
+export XDG_DATA_DIRS="$XDG_DATA_DIRS:/var/lib/snapd/desktop/"`
+```
